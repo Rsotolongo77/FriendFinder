@@ -11,6 +11,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style.css">
 
     <title>Friend Finder</title>
@@ -19,15 +21,32 @@
 
 
 <body>
-    <h1>Survey</h1>
-    <a href="/">Home</a>
+    <div class="container">
+
+        <h1 class="survey display-3"><b>Survey Questions</b></h1>
+        <hr>
+
+        <h3>Name (Required)</h3>
+        <input type="text" id="name" class="form-control" required>
+        <h3>Link to Photo Image (Required)</h3>
+        <input type="text" id="photo" class="form-control" required>
+
+        <hr>
+
+        <h2><b>Question 1</b></h2>
+        <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+        <select class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
 
 
-
-
-
-
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
