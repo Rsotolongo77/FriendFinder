@@ -1,7 +1,7 @@
 var friends = [
     {
-        name: "Caviar Lonwich",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Lonnie Mitchell",
+        photo: "",
         scores: [
             5,
             1,
@@ -16,7 +16,7 @@ var friends = [
         ]
     },
     {
-        name: "Mary Richardsonbonnivilledanglewitzcrivera",
+        name: "Mary Mouse",
         photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         scores: [
             1,
@@ -48,7 +48,7 @@ var friends = [
         ]
     },
     {
-        name: "Unluthy Sante",
+        name: "Cartfig Rodman",
         photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         scores: [
             1,
@@ -96,7 +96,7 @@ var friends = [
         ]
     },
     {
-        name: "Jason Tart",
+        name: "Jason Hart",
         photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         scores: [
             4,
@@ -112,7 +112,7 @@ var friends = [
         ]
     },
     {
-        name: "Bosman Dongothere",
+        name: "Brandy Dilly",
         photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         scores: [
             5,
@@ -161,4 +161,4 @@ var friends = [
     }
 ];
 
-module.export = friends;
+module.exports = friends;
