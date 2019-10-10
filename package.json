@@ -1,0 +1,28 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "## FriendFinder is a full stack app that mimicks a dating application. It is dirven by logic that compares user inputs to API data, linking them to the best match loaded in the database.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "package-json": "^6.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rsotolongo77/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rsotolongo77/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Rsotolongo77/FriendFinder#readme"
+}
