@@ -328,7 +328,7 @@
         for (var selector in config) {
             $(selector).chosen(config[selector]);
         }
-
+        //onclick established to validate value pulled from form is correct
         $("#submit").on("click", function (event) {
             event.preventDefault();
 
@@ -348,7 +348,7 @@
                 });
                 return isValid;
             }
-
+            //grabs acutal values from form
             if (validateForm()) {
                 var userData = {
                     name: $("#name").val(),
@@ -366,7 +366,7 @@
                         $("#q10").val()
                     ]
                 };
-
+                //posts to api friends route
                 $.post("/api/friends", userData, function (data) {
                     $("#match-name").text(data.name);
                     $("#match-img").attr("src", data.photo);
