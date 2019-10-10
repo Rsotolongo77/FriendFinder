@@ -1,3 +1,4 @@
+//Default data loaded into api/friends
 var friends = [
     {
         name: "Lonnie Mitchell",
@@ -161,4 +162,5 @@ var friends = [
     }
 ];
 
+//makes friend.js data a module and available to other files via require.
 module.exports = friends;
