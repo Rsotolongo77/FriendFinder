@@ -2,7 +2,7 @@
 var friends = [
     {
         name: "Lonnie Mitchell",
-        photo: "",
+        photo: "images/alpaca-image.jpg",
         scores: [
             5,
             1,
@@ -18,7 +18,7 @@ var friends = [
     },
     {
         name: "Mary Mouse",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "images/mary-image.jpg",
         scores: [
             1,
             3,
@@ -34,7 +34,7 @@ var friends = [
     },
     {
         name: "Bill Smitty",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "images/bill-smit.jpg",
         scores: [
             3,
             2,
@@ -50,7 +50,7 @@ var friends = [
     },
     {
         name: "Cartfig Rodman",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "images/cartman.jpg",
         scores: [
             1,
             2,
@@ -66,7 +66,7 @@ var friends = [
     },
     {
         name: "Patty Sanders",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "images/patty-san.jpg",
         scores: [
             3,
             3,
@@ -82,7 +82,7 @@ var friends = [
     },
     {
         name: "Daniel Boon",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "images/daniel-boon.jpg",
         scores: [
             5,
             5,
@@ -98,7 +98,7 @@ var friends = [
     },
     {
         name: "Jason Hart",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "images/jason-hart.jpg",
         scores: [
             4,
             3,
@@ -114,7 +114,7 @@ var friends = [
     },
     {
         name: "Brandy Dilly",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "images/archer-dill.jpg",
         scores: [
             5,
             1,
@@ -130,7 +130,7 @@ var friends = [
     },
     {
         name: "Jessie Pope",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "images/jessie-pope.jpg",
         scores: [
             2,
             4,
@@ -146,7 +146,7 @@ var friends = [
     },
     {
         name: "Ahmed",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "images/ahmed.jpg",
         scores: [
             2,
             3,
