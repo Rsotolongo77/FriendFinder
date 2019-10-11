@@ -85,6 +85,12 @@ a {
 
 }
 
+#match-img {
+    height: 250px;
+    width:250px;
+
+}
+
 .jumbotron {
     background-color: rgb(112, 168, 112);
     height: 87vh;
